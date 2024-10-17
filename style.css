@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+body {
+    margin: 0;
+    color: white;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.header {
+    width: 100%;
+    height: 540px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.header-img {
+    width: 100%;
+    height: 541px;
+    z-index: -1;
+}
+
+.right-section {
+    width: 40%;
+    height: 540px;
+    z-index: -1;
+}
+.left-section {
+    height: 540px;
+    width: 60%;
+}
+.logo-section {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: baseline;
+    padding-top: 50px;
+}
+.logo-left {
+    width: 60%;
+    height: 100px;
+}
+.logo-left svg {
+    fill: #fc8019;
+}
+.button {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+
+    padding-top: 23px;
+    padding-left: 25px;
+}
+.swiggy-img {
+    width: 190px;
+    height: 55px;
+    padding-left: 165px;
+    padding-top: 10px;
+}
+.login {
+    font-size: 14 px;
+    font-weight: 600;
+    height: 40px;
+    color: black;
+    padding-top: 10px;
+}
+.sign-up {
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    padding: 5px;
+}
+.sign-border {
+    background: black;
+}
+.swiggy {
+    padding-left: 156px;
+    padding-top: 15px;
+}
+.button-div {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-div a {
+    padding: 0;
+    margin: 0;
+    height: 20px;
+}
+.content-right {
+    width: 500px;
+    height: 100px;
+    padding-left: 156px;
+}
+.h1-content {
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -0.45px;
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+    height: 31px;
+}
+.para-1 {
+    width: 510px;
+    height: 1px;
+    color: black;
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #686b78;
+    padding-bottom: 50px;
+}
+.bar-section {
+    width: 100%;
+    height: 58px;
+    padding-left: 156px;
+    padding-top: 20px;
+    border: rgba(0, 0, 0, 0.2);
+}
+.bar {
+    border: none;
+    outline: none;
+    width: 400px;
+}
+.locate {
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+
+.food {
+    outline: none;
+    border: none;
+    background-color: rgb(252, 128, 25);
+    height: 50px;
+    width: 100px;
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+    box-sizing: inherit;
+    color: #fff;
+    font-weight: 800;
+}
+.popular {
+    font-weight: 400;
+    font-size: 15px;
+    color: #a9abb2;
+    margin: 30px 0 10px;
+    letter-spacing: -0.2px;
+    padding-left: 156px;
+}
+.left-text {
+    height: 40px;
+    width: 100%;
+    display: flex;
+}
+.location-name {
+    padding-top: 20px;
+    width: 589px;
+    /* height: 60px; */
+    height: auto;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 156px;
+}
+.location-name p {
+    font-size: 14px;
+    margin: 0 10px 0 0;
+}
+.dark-text {
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 8px;
+    color: #686b78;
+    line-height: 1.5;
+    letter-spacing: -0.3px;
+}
+.light-text {
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 8px;
+    color: black;
+    line-height: 1.5;
+    letter-spacing: -0.3px;
+}
+
+.second-section {
+    box-sizing: border-box;
+    padding: 0 156px;
+    width: 100%;
+    height: 405px;
+    background-color: #2b1e16;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.second-section div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.border-div {
+    width: fit-content;
+}
+
+.border-div input {
+    padding-left: 17px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #b3b4b8;
+}
+
+.Restaurants {
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    width: 300px;
+    line-height: 1;
+    letter-spacing: -0.45px;
+}
+.Order {
+    font-size: 20px;
+    width: 400px;
+    font-weight: 300;
+    padding-bottom: 60px;
+    color: #7e808c;
+}
+.img-one {
+    margin-top: -20px;
+}
+.img-two {
+    margin-top: -30px;
+}
+.img-three {
+    margin-top: -20px;
+}
+.second-para {
+    padding-top: 10px;
+}
+.one-div h1 {
+    margin: 0;
+    font-size: 16px;
+}
+.one-div p {
+    margin: 0px 0 0 0;
+    color: #e0cbc1;
+    font-size: 14px;
+    font-weight: 300;
+}
+.two-div h1 {
+    margin: 0;
+    font-size: 16px;
+}
+.two-div p {
+    margin: 10px 0 0 0;
+    color: #e0cbc1;
+    font-size: 14px;
+    font-weight: 300;
+    display: flex;
+}
+.three-div h1 {
+    margin: 0;
+    font-size: 16px;
+}
+.three-div p {
+    margin: 10px 0 0 0;
+    color: #e0cbc1;
+    font-size: 15px;
+}
+.img-div {
+    height: 250px;
+    width: 200px;
+    margin-top: -75px;
+}
+.third-section {
+    padding: 0 156px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    height: 505px;
+}
+.app-left {
+    width: 50%;
+    color: #484848;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.app-right {
+    width: 50%;
+    box-sizing: border-box;
+    width: fit-content;
+    display: flex;
+}
+.app-right .images {
+    display: flex;
+    align-items: center;
+}
+.play-store {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 130px;
+}
+._3QGpR {
+    margin-bottom: 55px;
+}
+/* ._2SJnz{
+    margin-top: 112px;
+} */
+.app-store {
+    padding-left: 15px;
+}
+.color-para {
+    color: #7e808c;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.four-section {
+    width: 100%;
+    height: 510px;
+    background: #000;
+    display: flex;
+    padding-top: 70px;
+    justify-content: center;
+}
+.div-one {
+    min-width: 300px;
+}
+.div-two {
+    height: 510px;
+    min-width: 300px;
+}
+.div-three {
+    height: 510px;
+    min-width: 300px;
+}
+
+.div-one ul li {
+    list-style-type: none;
+    line-height: 35px;
+    font-size: 15px;
+}
+.div-two ul li {
+    list-style-type: none;
+    line-height: 35px;
+    font-size: 15px;
+}
+.div-three ul li {
+    list-style-type: none;
+    line-height: 35px;
+    font-size: 15px;
+}
+
+.div-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-four img {
+    margin: 10px 40px;
+}
+.head {
+    font-weight: 800 !important;
+    margin-bottom: 20px;
+    color: #686b78;
+}
